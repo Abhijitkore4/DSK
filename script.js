@@ -407,25 +407,25 @@ if (consultationForm) {
         const message = document.getElementById("consultMessage").value.trim();
 
         const whatsappMessage =
-            `Hello,
+`नमस्कार,
 
-I visited your website and would like to book a consultation.
-
-------------------------------------
-
-Name: ${name}   
-
-Mobile: ${phone}
-
-Service: ${service}
-
-Requirement: ${message}
+मी आपल्या वेबसाइटद्वारे संपर्क साधत आहे. मला खालील सेवेसाठी Consultation हवी आहे.
 
 ------------------------------------
 
-Please contact me at your earliest convenience.
+नाव: ${name}
 
-Thank you.`;
+मोबाईल: ${phone}
+
+सेवा: ${service}
+
+तपशील / आवश्यकता: ${message}
+
+------------------------------------
+
+कृपया आपल्या सोयीप्रमाणे माझ्याशी संपर्क साधावा.
+
+धन्यवाद.`;
 
         const whatsappURL =
             `https://wa.me/919860175670?text=${encodeURIComponent(whatsappMessage)}`;
